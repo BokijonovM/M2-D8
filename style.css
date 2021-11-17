@@ -1,6 +1,22 @@
 nav{
-    background-color: rgb(0, 144, 228);
+    background-color: rgb(1, 255, 132);
 }
 .nav-text{
     padding-left: 200px
+}
+.titles-h1, .title-p{
+    text-align:center;
+}
+
+.header-card3{
+    text-align:center;
+}
+.titles-card3{
+    text-align:center;
+}
+.card-span{
+    font-weight:lighter;
+}
+.text-card3{
+    text-align:center;
 }
