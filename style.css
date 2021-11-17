@@ -20,3 +20,10 @@ nav{
 .text-card3{
     text-align:center;
 }
+.card-p6{
+    font-size: xx-small;
+    margin-left: auto;
+}
+.view-edit-buttons{
+    border-radius: 2px;
+}
