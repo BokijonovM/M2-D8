@@ -27,3 +27,86 @@ nav{
 .view-edit-buttons{
     border-radius: 2px;
 }
+.task-1-1{
+    height: 400px;
+    width: 550px;
+    background-color: green;
+    text-align: center;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    color:white;
+}
+.task-1-2{
+    height: 400px;
+    width: 150px;
+    background-color: blue;
+    font-weight:bolder;
+    color:white;
+    text-align: center;
+}
+.task1-3{
+    width: 400px;
+    height: 133.33px;
+    background-color: rgb(151, 151, 2);
+    border-top-right-radius: 45px;
+    text-align: center;
+    color:white;
+}
+.task1-4{
+    width: 400px;
+    height: 133.33px;
+    background-color: rgb(94, 94, 10);
+    text-align: center;
+    color:white;
+}
+.task1-5{
+    width: 400px;
+    height: 133.33px;
+    background-color: rgb(41, 41, 0);
+    border-bottom-right-radius: 45px;
+    text-align: center;
+    color:white;
+}
+
+
+
+
+#ninth .box {
+    position: relative;
+    background-color: chartreuse;
+    top: -10px;
+    right: 1px;
+    width: 350px;
+    height: 400px;
+    z-index: -1;
+    border: 2px;
+    border-left-color: black;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+
+  #ninth .box::before {
+    content: "";
+    background-color: rgb(11, 20, 146);
+    position: absolute;
+    right: -150px;
+    width: 150px;
+    height: 400px;
+    z-index: -1;
+  }
+
+  #ninth .box::after {
+    content: ">>";
+    background-color: rgb(134, 134, 7);
+    position: absolute;
+    right: -350px;
+    width: 200px;
+    height: 400px;
+    z-index: 2;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+  }
+.task11111{
+    height: 380px;
+    width: 1000px;
+}
