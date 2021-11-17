@@ -86,7 +86,8 @@ nav{
   }
 
   #ninth .box::before {
-    content: "";
+    content: "second column text";
+    color: white;
     background-color: rgb(11, 20, 146);
     position: absolute;
     right: -150px;
